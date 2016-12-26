@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+}
+html, body{
+	font-family: Tahoma, sans-serif;
+}
+.slide_wrap_item{
+	width: 420px;
+	float: left;
+	padding: 5px 0;
+}
+.slide_item{
+	display: block;
+	float: left;
+	margin: 10px;
+	width: 190px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.slide_item:hover{
+	transform: scale(1.05);
+	transition: 0.4s;
+}
+.slide_img{
+	margin: 10px;
+}
